@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="icon" type="image/jpg" href="./assets/favicon.png" />
+
+    <title>Client Rolodex</title>
+</head>
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">Client Rolodex</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./createRecord.html">Create Record</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div class="container-sm">
+        <h1>Create a New Client Record:</h1>
+        <form>
+            <div class="mb-3">
+                <label for="InputName" class="form-label">Name</label>
+                <input type="name" class="form-control" id="InputName">
+            </div>
+            <div class="mb-3">
+                <label for="InputCompanyName" class="form-label">Company Name</label>
+                <input type="company" class="form-control" id="InputCompanyName">
+            </div>
+            <div class="mb-3">
+                <label for="InputCompanyStreet" class="form-label">Street Name</label>
+                <input type="address" class="form-control" id="InputCompanyStreet">
+            </div>
+            <div class="mb-3">
+                <label for="InputCompanySuite" class="form-label">Suite Number</label>
+                <input type="address" class="form-control" id="InputCompanySuite">
+            </div>
+            <div class="mb-3">
+                <label for="InputCompanyCity" class="form-label">City</label>
+                <input type="address" class="form-control" id="InputCompanyCity">
+            </div>
+            <div class="mb-3">
+                <label for="InputCompanyZip" class="form-label">Zip Code</label>
+                <input type="address" class="form-control" id="InputCompanyZip">
+            </div>
+            <div class="mb-3">
+                <label for="InputCompanyCatachPhrase" class="form-label">Company Catch Phrase</label>
+                <input type="catch-phrase" class="form-control" id="InputCompanyCatchPhrase">
+            </div>
+            <div class="mb-3">
+                <label for="InputEmail" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="InputEmail">
+            </div>
+            <div class="mb-3">
+                <label for="InputPhoneNumber" class="form-label">Phone Number</label>
+                <input type="phone" class="form-control" id="InputPhoneNumber">
+            </div>
+            <div class="mb-3">
+                <label for="InputUsername" class="form-label">Username</label>
+                <input type="username" class="form-control" id="InputUsername">
+            </div>
+            <div class="mb-3">
+                <label for="InputWebsite" class="form-label">Website</label>
+                <input type="website" class="form-control" id="InputWebsite">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <script src="./dist/create.bundle.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

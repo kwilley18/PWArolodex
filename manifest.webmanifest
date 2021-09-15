@@ -1,0 +1,20 @@
+{
+    "name": "Online/Offline Rolodex App",
+    "short_name": "Rolodex App",
+    "icons": [
+        {
+            "src": "./assets/black-favicon/icon-591x530.png",
+            "sizes": "591x530",
+            "type": "image/png"
+        },
+        {
+            "src": "./assets/favicon/icon-591x530.png",
+            "sizes": "591x530",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#white",
+    "background_color": "#black",
+    "start_url": "/",
+    "display": "standalone"
+}
